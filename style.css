@@ -92,7 +92,7 @@ body {
     justify-content: center;
   }
 
-  input {
+  .input {
     outline: 0;
     border-width: 0 0 2px;
     width: 750px;
@@ -218,8 +218,66 @@ body {
     margin-top: -25px;
 }
 
-.update-sec {
-    height: 450px;
+.update {
+    height:250px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: rgb(110, 107, 107);
+}
 
+.update h1 {
+    font-size: 55px;
+    color: black;
+}
+.update p {
+    margin-top: -25px;
+}
+
+
+
+.email {
+    height: 250px;
+    width: 800px;
+    background-color: rgb(253, 208, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.email .input-email {
+  background-color: rgb(223, 215, 215); 
+  border: 1px solid rgb(121, 112, 112);
+  height: 35px;
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px pink;
+  font-size: 15px;
+}
+
+.email .submit {
+    background-color: tomato;
+    border: tomato;
+    padding: 12px 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footer p {
+    color: white;
 }
